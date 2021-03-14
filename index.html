@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Portfolio Homepage</title>
+   <link rel ="stylesheet" href="styles2.css"> 
+</head>
+<body>
+
+	
+<header>
+	<section class = "showcase">
+		<header>
+			<h2 class ="logo">Shawn's Travel Page</h2>
+			<div class="toggle"></div>
+		</header>
+	<video src ="vid2.mp4" muted loop autoplay></video>
+
+	<div class="overlay"></div>
+	<div class="text">
+		<h2> Dream </h2>
+		<h3> Vacation</h3>
+		<p>This website gives you access to explore places around the world.Click on Explore to view some countries that qualify as one's Dream Vacation.</p>
+		<a href="explore.html">Explore</a>
+	</div>	
+			</section>
+		</header>
+
+	<div class ="menu">
+	<ul>
+		<li><a href="index.html"> Homepage </a></li>
+		<li><a href="explore.html"> Explore Page </a></li>
+		<li><a href="about.html"> About Page </a></li>
+		<li><a href="https://www.youtube.com/watch?v=9GvTYd5hG_g"> Youtube links </a></li>
+	</ul>
+			</div>
+
+			<script>
+const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+
+})
+				
+
+
+			</script>
+
+
+</body>
+
+</html>
